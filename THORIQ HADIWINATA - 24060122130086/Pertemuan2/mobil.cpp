@@ -140,7 +140,7 @@ int main(int argc, char** argv) {
     glutCreateWindow("Mobil Ijoss");
     glClearColor(1.0, 9.0, 1.0, 1.0); 
     gluOrtho2D(-1.0, 1.0, -1.0, 1.0); 
-//    glutTimerFunc(1,timer,0);
+    glutTimerFunc(1,timer,0);
     glutDisplayFunc(mobil);
     glutMainLoop();
     return 0;
